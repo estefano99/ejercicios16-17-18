@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav a.is-active{
+  font-weight: bold;
+  pointer-events: none;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+
+.link{
+  list-style: none;
+  margin: 10px;
+}
+
